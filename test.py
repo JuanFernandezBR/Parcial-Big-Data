@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import Mock
-from extraer import extraer()
+from extraer import extraer
 import json
 
 def test(mock):
