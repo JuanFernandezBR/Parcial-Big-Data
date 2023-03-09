@@ -5,7 +5,7 @@ import json
 
 def test(mock):
     
-    mock_info = mock.patch('traer.traer')
+    mock_info = mock.patch('extraer.extraer')
     mock_info.return_value = '{"hits":{"hits":""}}'
     
     cantidad = 3
