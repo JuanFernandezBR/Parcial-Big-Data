@@ -16,7 +16,7 @@
        }],
     },
      "dev2": {
-        "app_function": "formato-lambda1"
+        "app_function": "formatoinfo-lambda1"
         "keep_warm": false,
         "role_name": "LabRole",
         "profile_name": null,

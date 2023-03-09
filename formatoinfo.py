@@ -24,7 +24,7 @@ def formato(dic):
 def lambda1(event, context):
     nuevo = event['Records'][0]['s3']['object']['key']
     s3 = boto3.resource('s3')
-    bucket = s3.Bucket('landingxx')
+    bucket = s3.Bucket('bucketparcial2')
     obj = bucket.Object(nuevo)
     body = obj.get()['Body'].read()
     info = json.loads(body)
