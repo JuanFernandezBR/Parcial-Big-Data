@@ -29,7 +29,7 @@ def lambda1(event, context):
     body = obj.get()['Body'].read()
     info = json.loads(body)
     print(f"Informacion{info}")
-    info2 = formato(info)
+    info2 = formatoinfo(info)
     
     client = boto3.client('s3')
     nombre = nuevo.split(".")[0]+".csv"

@@ -25,7 +25,7 @@
         "s3_bucket": "bucketparcial1"
         "manage_roles": false,
         "apigateway_enabled": false,
-        "events": [{pi
+        "events": [{
             "function": "formatoinfo.lambda1"
             "event_source": {
                 "arn": "arn:aws:s3:::bucketparcial2",
