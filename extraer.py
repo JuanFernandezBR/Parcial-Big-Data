@@ -18,7 +18,7 @@ def extraer(x):
 def lambda1(event, context):
     print('Preparandome para despegar')
     info= extraer(30)
-    print(f"{info}")
+    print(f"Informacion{info}")
     
     client = boto3.client('s3')
     actual = datetime.datetime.now()

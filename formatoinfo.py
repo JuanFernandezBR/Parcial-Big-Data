@@ -28,7 +28,7 @@ def lambda1(event, context):
     obj = bucket.Object(nuevo)
     body = obj.get()['Body'].read()
     info = json.loads(body)
-    print(f"------------------- datos es {info} ---------------------------")
+    print(f"Informacion{info}")
     info2 = formato(info)
     
     client = boto3.client('s3')
