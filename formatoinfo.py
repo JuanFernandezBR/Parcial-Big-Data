@@ -4,7 +4,7 @@ import boto3
 import csv
 import tempfile
 
-def formato(dic):
+def formatoinfo(dic):
   todos = [["FechaDescarga","Barrio", "Precio", "Estrato", "NumHabitaciones", "NumBanos", "mts2"]]
   actual = datetime.datetime.now()
   interes = [['locations', 'neighbourhoods', 'name'],['price'], ['stratum', 'name'],['rooms', 'name'], ['baths', 'name'],['area']]
