@@ -1,2 +1,6 @@
 # Parcial-Big-Data
-Parcial primer corte de Big Dara - Juan Pablo Fernández Barragan
+Parcial primer corte de Big Data
+
+Realizado por:
+Juan Pablo Fernández Barragan
+David Zarate
