@@ -17,6 +17,7 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: "3.8"
+          aws-region: AWS_DEFAULT_REGION
           
       - name: create env
         run: |
