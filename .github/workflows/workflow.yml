@@ -43,9 +43,7 @@ jobs:
         VIRTUALENV: env
       run: |
         source $VIRTUALENV/bin/activate
-        zappa deploy dev
         zappa update dev
-        zappa deploy dev2
         zappa update dev2
     - name: Hazlo
       env:
