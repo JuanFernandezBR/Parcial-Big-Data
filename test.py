@@ -7,7 +7,7 @@ def test_traer(mocker):
     mock_traer_datos = mocker.patch('extraer.extraer')
     mock_traer_datos.return_value = '{"hits":{"hits":""}}'
     cantidad = 3
-    resultado = traer(cantidad)
+    resultado = extraer(cantidad)
     res_dic = json.loads(resultado)
     assert isinstance(resultado, str)
     assert resultado[0] == '{'
