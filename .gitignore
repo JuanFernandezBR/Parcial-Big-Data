@@ -1,4 +1,1 @@
-.env
-env
-actions-runner/
-__pycache__
+/env
