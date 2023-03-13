@@ -38,14 +38,14 @@ jobs:
         source $VIRTUALENV/bin/activate
         flake8 . --count --select=E9 --show-source --statistics
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Actualiza etapas
+    - name: ACTUALIZA
       env:
         VIRTUALENV: env
       run: |
         source $VIRTUALENV/bin/activate
         zappa update dev
         zappa update dev2
-    - name: Hazlo
+    - name: EMPIEZA
       env:
         VIRTUALENV: env
       run: |
