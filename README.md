@@ -2,8 +2,8 @@
 Parcial primer corte de Big Data
 
 Realizado por:
-* Juan Pablo Fernández Barragan
-* David Zarate
+* Juan Pablo Fernández Barragan - GRUPO 1 Big Data
+* David Zarate - GRUPO 2 Big Data
 
 Parcial I – Big_data e Ing. De Datos
 
