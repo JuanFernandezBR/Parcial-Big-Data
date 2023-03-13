@@ -1,6 +1,8 @@
 # Parcial-Big-Data
 Parcial primer corte de Big Data
 
+EL CODIGO SE ENCUENTRA EN LA RAMA MASTER
+
 Realizado por:
 * Juan Pablo Fernández Barragan - GRUPO 1 Big Data
 * David Zarate - GRUPO 2 Big Data
